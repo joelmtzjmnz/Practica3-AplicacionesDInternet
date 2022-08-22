@@ -1,0 +1,78 @@
+*{
+    padding: 10px;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.padre{
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.header{
+    background-color: black;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.menu{
+    background-color:aliceblue;
+    display: flex;
+    flex-flow: row nowrap;
+    height: 100px;
+    align-items: center;
+}
+
+.logo{
+    background-color:bisque;
+    flex: 1 1 auto;
+    height: 30px;
+}
+
+.nav{
+    background-color: blanchedalmond;
+    flex: 5 1 auto;
+    height: 30px;
+}
+
+.social{
+    background-color: aquamarine;
+    flex: 1 1 auto;
+    height: 30px;
+}
+
+.textoprincipal{
+    background-color: red;
+}
+
+.section{
+    background-color: brown;
+}
+
+.articulos{
+    background-color: chocolate;
+}
+
+.article{
+    background-color: coral;
+}
+
+.navegacion{
+    background-color: cornsilk;
+}
+
+.aside{
+    background-color: blue;
+}
+
+.publicidad{
+    background-color: cornflowerblue;
+}
+
+.footer{
+    background-color: darkgreen;
+}
+
+.pie{
+    background-color: cadetblue;
+}
