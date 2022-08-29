@@ -8,6 +8,10 @@ body {
     font-family:'Montserrat', sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
+
 .padre{
     display: flex;
     flex-flow: column nowrap;
@@ -33,6 +37,7 @@ body {
 
 .logo{
     flex: 1 1 auto;
+    text-align: center;
 }
 
 .logo a {
@@ -46,11 +51,16 @@ body {
 
 .nav{
     flex: 5 1 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .nav a {
     color: white;
-    font-size: 11px;
+    font-size: 15px;
     text-transform: uppercase;
     padding: 0px 10px;
     letter-spacing: 2px;
@@ -76,53 +86,101 @@ body {
 }
 
 .textoprincipal{
-    background-color:blue;
+    height: 90vh;
+    display: flex;
+    align-items: center;
 }
 
 h1{
-    background-color: red;
+    font-family: 'Lora', serif;
+    font-size: 21px;
+    color: white;
+    font-weight: 300;
+    text-align: center;
+    line-height: 1,6;
 }
 
 .section{
-    background-color: brown;
     display: flex;
 }
 
 .articulos{
-    background-color: chocolate;
+    background-color: #f7f7f7;
     flex: 2 1 auto;
     display: flex;
     flex-flow: row wrap;
 }
 
 .article{
-    background-color: coral;
-    flex: 1 1 40%;
+    flex: 1 1 45%;
+    color: #444;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+    margin: 10px 10px 0 0;
+}
+
+.article img {
+    width: 100%;
+}
+
+.article h3{
+    color: white;
+    font-size: 16px;
+    padding: 10px 0;
+    margin-top: -80px;
+    letter-spacing: 1px;
+}
+
+.article h2{
+    color: white;
+    text-transform: uppercase;
+    padding: 0 0 10px 0;
+
 }
 
 .navegacion{
-    background-color: cornsilk;
-    flex: 1 1 100%
+    flex: 1 1 100%;
+    height: 50px;
+    background-color: black;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navegacion a {
+    color: white;
+    font-size: 12px;
+    font-weight: 800;
+    font-family: 'Lora', serif;
 }
 
 .aside{
-    background-color: blue;
     flex: 1 1 auto;
+    background-color: white;
 }
 
 .publicidad{
-    background-color: cornflowerblue;
+}
+
+.publicidad img{
+    width: 200px;
 }
 
 .footer{
-    background-color: darkgreen;
     display: flex;
     justify-content: center;
+    background-color: black;
 }
 
 .pie{
-    background-color: cadetblue;
-    width: 300px;
+    width: fit-content;
+}
+
+.pie a{
+    color: white;
+    font-size: 15px;
+    
 }
 
 @media all and (max-width: 800px) {
